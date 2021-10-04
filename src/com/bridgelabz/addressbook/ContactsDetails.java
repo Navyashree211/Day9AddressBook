@@ -6,17 +6,17 @@ public class ContactsDetails {
 	private int zip;
 	private long phonenumber;
 
-	public ContactsDetails(String firstname, String lastname, String address, String city, String state, String email,
-			int zip, long phonenumber) {
-		this.firstname = firstname;
-		this.lastname = lastname;
-		this.address = address;
-		this.city = city;
-		this.state = state;
-		this.email = email;
-		this.zip = zip;
-		this.phonenumber = phonenumber;
-	}
+	//public ContactsDetails(String firstname, String lastname, String address, String city, String state, String email,
+	//		int zip, long phonenumber) {
+	//	this.firstname = firstname;
+	//	this.lastname = lastname;
+	//	this.address = address;
+	//	this.city = city;
+	//	this.state = state;
+	//	this.email = email;
+	//	this.zip = zip;
+	//	this.phonenumber = phonenumber;
+	//}
 
 	// getter or setter methods to assign or retrieve the contact details.
 	public String getFirstname() {
